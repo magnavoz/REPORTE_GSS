@@ -1,0 +1,36 @@
+{
+  "name": "prueba-ftp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node --max-old-space-size=4096 server.js",
+    "kobsa": "node server.js -M --COMPANY=KOBSA --D=0"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "adm-zip": "^0.5.10",
+    "axios": "^0.25.0",
+    "basic-ftp": "^4.6.6",
+    "csv": "^6.2.7",
+    "csv-parser": "^3.0.0",
+    "csvtojson": "^2.0.10",
+    "desktop-screenshot": "^0.1.1",
+    "dotenv": "^10.0.0",
+    "excel4node": "^1.8.0",
+    "express": "^4.17.1",
+    "fs": "0.0.1-security",
+    "http": "0.0.1-security",
+    "image-to-base64": "^2.2.0",
+    "node-base64-image": "^2.0.4",
+    "node-telegram-bot-api": "^0.54.0",
+    "puppeteer": "^10.4.0",
+    "puppeteer-extra": "^3.2.3",
+    "puppeteer-extra-plugin-user-preferences": "^2.3.1",
+    "screenshot-desktop": "^1.12.7",
+    "ssh2-sftp-client": "^8.0.0"
+  }
+}
